@@ -15,7 +15,7 @@ import lombok.Data;
 public class User {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id") // name must be same with in the Database
+	@Column(name = "id") // names must be same with in the Database
 	private int id;
 
 	@Column(name = "email")
