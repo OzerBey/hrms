@@ -20,3 +20,11 @@
 
 
 **:chart_with_upwards_trend:[hrms-database](https://github.com/OzerBey/hrms/tree/master/hrms-database)**
+
+<!--<li><a href="#licence">Licence</a></li>-->
+
+<hr>
+
+# LICENCE
+
+[MIT](https://github.com/OzerBey/hrms/blob/master/LICENCE.txt)
