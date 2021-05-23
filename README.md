@@ -2,6 +2,8 @@
 
 **:book: [hrms-backend codes](https://github.com/OzerBey/hrms/tree/master/hrms/src/main/java/kodlamaio/hrms)**
 
+* [Swagger2 integration](https://github.com/OzerBey/javacamp-backend/blob/master/README.md)
+
 <details>
 <summary>Click for details of hrms-backend </summary><br>
   
