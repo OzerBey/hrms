@@ -1,4 +1,6 @@
-package kodlamaio.hrms.core.utilities.results;
+package kodlamaio.hrms.core.utilities.results.successes;
+
+import kodlamaio.hrms.core.utilities.results.DataResult;
 
 public class SuccessDataResult<T> extends DataResult<T> {
 

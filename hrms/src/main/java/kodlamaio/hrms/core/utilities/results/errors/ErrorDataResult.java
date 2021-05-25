@@ -1,4 +1,6 @@
-package kodlamaio.hrms.core.utilities.results;
+package kodlamaio.hrms.core.utilities.results.errors;
+
+import kodlamaio.hrms.core.utilities.results.DataResult;
 
 public class ErrorDataResult<T> extends DataResult<T> {
 
@@ -12,9 +14,11 @@ public class ErrorDataResult<T> extends DataResult<T> {
 
 	public ErrorDataResult(String message) {
 		super(null, false, message);
+  
 	}
 
 	public ErrorDataResult() {
 		super(null, false);
 	}
+
 }
