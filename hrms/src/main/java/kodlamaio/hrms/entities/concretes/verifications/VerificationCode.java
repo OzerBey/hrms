@@ -1,4 +1,6 @@
-package kodlamaio.hrms.entities.concretes;
+package kodlamaio.hrms.entities.concretes.verifications;
+
+import java.time.LocalDate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,25 +9,29 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.sun.istack.NotNull;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@Table(name = "job_titles")
 @AllArgsConstructor
 @NoArgsConstructor
-public class JobTitle {
+@Table(name = "verification_codes")
+public class VerificationCode {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
-	@NotNull
 	private int id;
 
-	@Column(name = "title")
-	@NotNull
-	private String title;
+	@Column(name = "code")
+	private String code;
+
+	@Column(name = "is_verified")
+	private boolean isVerified;
+
+	@Column(name = "verificate_date")
+	private LocalDate verificateDate;
+
 }
